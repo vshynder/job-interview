@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="facebook" viewbox="0 0 12 26">
+            <path d="M5.948 3.014H8.01V-.032H5.586v.01C2.65.083 2.047 1.735 1.995 3.469h-.006v1.52h-2v2.984h2v7.996h3.014V7.972h2.469l.476-2.983H5.003v-.92c0-.585.39-1.055.945-1.055z"/>
+        </symbol>
+        <symbol id="twitter" viewbox="0 0 12 26">
+            <path d="M16.562 1.562c-.27.148-1.078.445-1.832.52.484-.262 1.2-1.115 1.376-1.794-.464.297-1.532.73-2.06.73l.002.002a3.3 3.3 0 0 0-5.603 3.016C5.971 3.971 3.08 2.732 1.451.611c-1 1.732-.135 3.658 1.001 4.36-.388.03-1.104-.044-1.441-.372-.024 1.15.53 2.673 2.546 3.225-.39.21-1.075.15-1.374.104.105.972 1.464 2.241 2.95 2.241-.53.611-2.336 1.724-4.572 1.37A9.908 9.908 0 0 0 5.726 13c5.325 0 9.46-4.316 9.238-9.64l-.002-.018.002-.042-.002-.05a5.68 5.68 0 0 0 1.6-1.688z"/>
+        </symbol>
+        <symbol id="linked" viewbox="0 0 12 26">
+            <path d="M1.015 4.997h2.997v9.987H1.015zm14.992 4.317v5.67H13.01V9.538c0-1.117-.322-2.234-1.637-2.234-1.314 0-2.363 1.117-2.363 2.262v5.418H6.003V4.965H9.01v1.39c.922-1.173 2.224-1.703 3.678-1.703 1.454 0 3.32.725 3.32 4.662zm-11.584-7.6c0 .97-.876 1.758-1.957 1.758-1.083 0-1.959-.788-1.959-1.759 0-.972.876-1.76 1.959-1.76 1.08 0 1.957.788 1.957 1.76z"/>
+        </symbol>
+        <symbol id="pinterest" viewbox="0 0 12 26">
+            <path d="M7.988-.012a8 8 0 0 0-3.167 15.348c-.021-.556 0-1.222.141-1.825l1.033-4.375s-.256-.513-.256-1.27c0-1.19.69-2.078 1.548-2.078.73 0 1.083.549 1.083 1.206 0 .733-.468 1.83-.709 2.848-.2.852.428 1.547 1.268 1.547 1.52 0 2.545-1.954 2.545-4.27 0-1.76-1.184-3.076-3.34-3.076-2.436 0-3.954 1.816-3.954 3.845 0 .7.207 1.193.53 1.575.149.175.17.247.115.448-.039.147-.126.502-.163.644-.053.203-.219.275-.402.2-1.121-.457-1.645-1.685-1.645-3.066 0-2.281 1.924-5.017 5.739-5.017 3.066 0 5.083 2.22 5.083 4.6 0 3.15-1.751 5.503-4.332 5.503-.868 0-1.683-.469-1.961-1 0 0-.467 1.849-.565 2.206-.169.61-.494 1.22-.795 1.699A8 8 0 1 0 7.988-.012z"/>
+        </symbol>
+    </svg>
+
+    <section class="contacts-bg">
+        <div class="container">
+            <div class="contacts">
+                <div class="contacts__info">
+                    <p class="contacts__info-number">
+                        CALL us +1 234 555 6677
+                    </p>
+                    <p class="contacts__info-address">
+                        27 Ba Trieu St. Hue city, Viet Nam
+                    </p>
+                    <div class="contacts__info-icons">
+                        <a href="" class="contacts__info-icon contacts__info-icon--facebook">
+                            <svg class="icon-links icon-facebook">
+                                <use xlink:href="#facebook" />
+                            </svg>
+                        </a>
+                        <a href="" class="contacts__info-icon contacts__info-icon--twitter">
+                            <svg class="icon-links icon-twitter">
+                                <use xlink:href="#twitter" />
+                            </svg>
+                        </a>
+                        <a href="" class="contacts__info-icon contacts__info-icon--linked">
+                            <svg class="icon-links icon-linked">
+                                <use xlink:href="#linked" />
+                            </svg>
+                        </a>
+                        <a href="" class="contacts__info-icon contacts__info-icon--pinterest">
+                            <svg class="icon-links icon-pinterest">
+                                <use xlink:href="#pinterest" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts__message">
+                    <p class="contacts__send-message">send a message</p>
+                    <p class="contacts__message-desc">Lorem ipsum dolor sit amet, consectetue elit. Quisque eleLorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin sed odio et ante adipiscing lobortis.</p>
+                </div>
+                <form action="" class="contacts__form">
+                    <div class="contacts__form-container">
+                        <div class="form__inputs">
+                            <div class="form__inputs-name">
+                                <input class="form__inputs-place" type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form__inputs-email">
+                                <input class="form__inputs-place" type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form__inputs-phone">
+                                <input class="form__inputs-place" type="number" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form__textarea">
+                            <textarea class="form__textarea-place" cols="30" rows="10" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button class="form__button">learn more</button>
+                </form>
+            </div>
+            <div class="contacts__footer">
+                <p class="contacts__footer-copyright">DIZAINO™ - CREATIVE DESIGN & DEVELOPMENT BY JUNOTEAM</p>
+                <img src="./img/contacts-arrow.png" alt="" class="contacts__footer-arrow">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
